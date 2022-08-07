@@ -4,10 +4,10 @@ made by Juhyun Kim
 This repository contains the code to analyze the Organoid single cell data to perform eQTL mapping through cell lineage(psuedotime). 
 
 Inputs :
-1. genotype data (vcf)
-2. covariate data (plink covariate file )
-3. gene-snp pair ( ex. Tensor QTL results )
-4. Seurat Object to conduct slingshot
+* genotype data (vcf)
+* covariate data (plink covariate file )
+* gene-snp pair ( ex. Tensor QTL results )
+* Seurat Object to conduct slingshot
 
 This method is comprised of 3 steps with first 1 using external tool named slignshot and the others using the code provided here.
 
@@ -16,6 +16,10 @@ This method is comprised of 3 steps with first 1 using external tool named slign
 
 # Make Env
 Download conda environment from this repository
+```shell
+conda env create --file scRNA_dynamiceQTL.juhyunk.20220807.yaml
+```
+
 
 
 
